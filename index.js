@@ -7,7 +7,7 @@ const cors = require('cors');
 
 app.use(cors())
 app.get('/', (req, res) => {
-  res.send('Dragon Is Running');
+  res.send('The News Dragon Server Is Running');
 });
 app.get('/categories', (req, res) => {
   res.send(categories);
